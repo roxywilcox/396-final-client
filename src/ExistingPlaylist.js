@@ -28,7 +28,7 @@ class ExistingPlaylist extends React.Component {
         <h1 id="instructions">instructions:</h1>
         <form>
           <label id="label">
-            enter your spotify-associated email then a comma then a space then your friend's spotify-associated email. make sure your friend has also logged into their spotify through our app. (if this doesn't work, try switching the order!)
+            enter your spotify-associated email then a comma then a space then your friend's spotify-associated email. make sure your friend has also logged into their spotify through our app. (if this doesn't work, try switching the order of the emails!)
             
             <input onChange={this.sendRequest} type="text" name="name" />
           </label>
